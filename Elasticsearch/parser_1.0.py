@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+
 import elasticsearch
 import ipaddress
 import json
 import time
+
 # Créer un client pour le cluster Elasticsearch
 client = elasticsearch.Elasticsearch("http://192.168.0.33:9200")
 # Si le cluster est joignable
@@ -13,6 +15,7 @@ if client.ping():
    res = client.search(index="case-96", size=10)
    # Extraire les données des résultats de recherche
    datas = res["hits"]["hits"]
+
    # Ouvrir un fichier pour l'écriture
    with open("output-" + str(timestamp) + ".txt", "w") as f:
        # Obtenir l'horodatage actuel au format Unix
@@ -20,6 +23,7 @@ if client.ping():
        # Écrire l'horodatage dans le fichier
        f.write("Timestamp: " + str(timestamp) + "\n")
        f.write("\n")
+
        # Parcourir les données
        for doc in datas:
            # Vérifier si le champ "_id" existe
