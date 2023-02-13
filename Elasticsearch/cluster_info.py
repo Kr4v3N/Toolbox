@@ -19,7 +19,7 @@ print('\033[92m' + "Voici les informations concernant le cluster :" + '\033[0m')
 print()
 
 # Se connecte et récupère les informations sur le cluster
-client = Elasticsearch("http://192.168.130.8:9200")
+client = Elasticsearch("http://IP:9200")
 res = client.info()
 
 # Créer un nouveau dictionnaire avec les informations que l'on souhaite afficher

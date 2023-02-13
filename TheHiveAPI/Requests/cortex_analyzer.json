@@ -1,0 +1,57 @@
+Request :
+http://IP:9000/api/connector/cortex/analyzer
+
+Response:
+[
+    {
+        "id": "0f1c266b327c37233fb2d04be1f95bda",
+        "name": "DomainMailSPFDMARC_Analyzer_1_1",
+        "version": "1.1",
+        "description": "DomainMailSPFDMARC",
+        "dataTypeList": [
+            "domain",
+            "fqdn"
+        ],
+        "cortexIds": [
+            "cortex0"
+        ]
+    },
+    {
+        "id": "7ca9b39d78f6b8958175445fa297d11b",
+        "name": "MISP_2_1",
+        "version": "2.1",
+        "description": "Query multiple MISP instances for events containing an observable.",
+        "dataTypeList": [
+            "domain",
+            "ip",
+            "url",
+            "fqdn",
+            "uri_path",
+            "user-agent",
+            "hash",
+            "mail",
+            "mail_subject",
+            "registry",
+            "regexp",
+            "other",
+            "filename"
+        ],
+        "cortexIds": [
+            "cortex0"
+        ]
+    },
+    {
+        "id": "c9eff977a80a7816026cbdd1f1a37969",
+        "name": "GoogleDNS_resolve_1_0_0",
+        "version": "1.0.0",
+        "description": "Request Google DNS over HTTPS service",
+        "dataTypeList": [
+            "domain",
+            "ip",
+            "fqdn"
+        ],
+        "cortexIds": [
+            "cortex0"
+        ]
+    }
+]

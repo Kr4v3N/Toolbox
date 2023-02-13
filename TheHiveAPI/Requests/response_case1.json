@@ -1,0 +1,53 @@
+Request :
+http://IP:9000/api/v1/case/~2977968
+
+Response:
+{
+    "_id": "~2977968",
+    "_type": "Case",
+    "_createdBy": "cyropuser@cyrop.io",
+    "_updatedBy": "cyropuser@cyrop.io",
+    "_createdAt": 1664380879854,
+    "_updatedAt": 1664383087824,
+    "number": 2,
+    "title": "#165 OSINT Introducing Hi-Zor RAT by Fidelis",
+    "description": "Imported from MISP Event #165, created at Wed Jan 27 00:00:00 UTC 2016",
+    "severity": 4,
+    "startDate": 1453852800000,
+    "tags": [
+        "src:CthulhuSPRL.be",
+        "tlp:white",
+        "type:OSINT"
+    ],
+    "flag": false,
+    "tlp": 3,
+    "pap": 3,
+    "status": "New",
+    "stage": "New",
+    "assignee": "cyropuser@cyrop.io",
+    "customFields": [],
+    "userPermissions": [
+        "manageTask",
+        "manageCaseTemplate",
+        "manageProcedure",
+        "managePage",
+        "manageObservable",
+        "manageAlert",
+        "accessTheHiveFS",
+        "manageKnowledgeBase",
+        "manageAction",
+        "manageShare",
+        "manageAnalyse",
+        "manageCustomEvent",
+        "manageCase",
+        "manageUser",
+        "manageComment",
+        "manageTag",
+        "manageConfig"
+    ],
+    "extraData": {},
+    "newDate": 1664380879818,
+    "timeToDetect": 210528079818
+}
+
+

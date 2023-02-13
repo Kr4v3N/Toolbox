@@ -1,0 +1,18 @@
+Timestamp: 1672911426
+
+_id: aAW-d4UB4oCy5Ziy0zp4
+id_case: ~50679856
+received_from: (champ introuvable)
+createdAt: 1667816463544
+type: case
+title: Phishing reçu d'un éditeur 
+description: Nous avons reçu un mail contenant un lien malveillant, ce lien télécharge un fichier depuis une IP référencé comme IOC
+tags: 
+- phishing
+- ransomware
+- _rubyexception
+impactedTarget: B.1.4.2
+actionPerformed: B.1.5.5
+status: B.1.3.3
+origin: B.1.1.4
+

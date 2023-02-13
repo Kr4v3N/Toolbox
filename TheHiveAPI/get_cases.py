@@ -1,8 +1,8 @@
 import json
 from thehive4py.api import TheHiveApi
 
-hive_url = 'http://212.227.30.1:9000'
-token = "N0KIteIEhi6ayx7pV29TshQjpw5WBrfG"
+hive_url = 'http://IP:9000'
+token = "TOKEN"
 organisation = "Cyrop"
 
 api = TheHiveApi(

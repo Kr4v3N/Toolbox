@@ -16,7 +16,7 @@ import elasticsearch
 import json
 
 # Créer un client pour le cluster Elasticsearch
-client = elasticsearch.Elasticsearch("http://192.168.130.8:9200")
+client = elasticsearch.Elasticsearch("http://IP:9200")
 
 # Récupérer les données de l'index concerné
 res = client.search(index="case-13")

@@ -1,0 +1,72 @@
+POSTMAN: Request :
+http://IP:9000/api/v1/alert/~122884248
+
+Response:
+{
+    "_id": "~122884248",
+    "_type": "Alert",
+    "_createdBy": "cyropuser@cyrop.io",
+    "_createdAt": 1664536036458,
+    "type": "test3",
+    "source": "test3",
+    "sourceRef": "test2",
+    "title": "test3",
+    "description": "test3",
+    "severity": 4,
+    "date": 1664536035000,
+    "tags": [],
+    "tlp": 2,
+    "pap": 2,
+    "follow": true,
+    "customFields": [],
+    "observableCount": 0,
+    "status": "New",
+    "stage": "New",
+    "extraData": {},
+    "newDate": 1664536035715,
+    "timeToDetect": 0
+}
+
+
+CURL: Request Post :
+curl http://\172.20.0.1:9000/api/v1/alert -H 'Authorization: Bearer jAhu/H1gDwdeiH1Ey1K9Vs0Z+JNTvmSN' -X POST -H 'Content-Type: application/json' --data '
+{
+  "type": "alertType",
+  "source": "test9",
+  "sourceRef": "1",
+  "title": "alert title",
+  "description": "alert description",
+  "observables": [
+     { "dataType": "url", "data": "http://example.org" },
+     { "dataType": "mail", "data": "foo@example.org" }
+  ]
+}
+'
+
+Response:
+{
+  "_id": "~82239576",
+  "_type": "Alert",
+  "_createdBy": "cyropuser@cyrop.io",
+  "_updatedBy": "cyropuser@cyrop.io",
+  "_createdAt": 1664802358855,
+  "_updatedAt": 1664802358888,
+  "type": "alertType",
+  "source": "test9",
+  "sourceRef": "1",
+  "title": "alert title",
+  "description": "alert description",
+  "severity": 2,
+  "date": 1664802358839,
+  "tags": [],
+  "tlp": 2,
+  "pap": 2,
+  "follow": true,
+  "customFields": [],
+  "observableCount": 2,
+  "status": "New",
+  "stage": "New",
+  "extraData": {},
+  "newDate": 1664802358842,
+  "timeToDetect": 0
+}

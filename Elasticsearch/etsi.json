@@ -1,0 +1,259 @@
+[
+  {
+    "id": "B.1.1.1",
+    "description": "sinistre"
+  },
+  {
+    "id": "B.1.1.2",
+    "description": "acte involontaire ou non intentionnel (erreur)"
+  },
+  {
+    "id": "B.1.1.3",
+    "description": "l'inconscience, la négligence ou l'irresponsabilité"
+  },
+  {
+    "id": "B.1.1.4",
+    "description": "acte malveillant"
+  },
+
+  {
+    "id": "B.1.2.10",
+    "description": "accès non autorisé à un système et/ou à des informations"
+  },
+  {
+    "id": "B.1.2.2",
+    "description": "action non autorisée sur le système d'information et/ou contre l'organisation"
+  },
+  {
+    "id": "B.1.2.3",
+    "description": "installation de logiciels non autorisés (malware) sur un système (sans le consentement du propriétaire)"
+  },
+  {
+    "id": "B.1.2.4",
+    "description": "perturbation à distance du système d'information"
+  },
+  {
+    "id": "B.1.2.5",
+    "description": "les attaques d'ingénierie sociale"
+  },
+  {
+    "id": "B.1.2.6",
+    "description": "attaque personnelle contre le personnel de l'organisation ou perturbation de l'organisation"
+  },
+  {
+    "id": "B.1.2.7",
+    "description": " intrusion physique ou action illicite"
+  },
+  {
+    "id": "B.1.2.8",
+    "description": "activité illicite menée sur l'Internet public (nuisant à une organisation)"
+  },
+  {
+    "id": "B.1.2.9",
+    "description": "erreurs diverses (administration, manipulation, programmation)"
+  },
+  {
+    "id": "B.1.2.11",
+    "description": "panne ou dysfonctionnement"
+  },
+  {
+    "id": "B.1.2.12",
+    "description": "événements environnementaux (indisponibilité due à une catastrophe naturelle)\n"
+  },
+
+  {
+    "id": "B.1.3.1",
+    "description": "tentative (ou occurrence) d'événement de sécurité en cours"
+  },
+  {
+    "id": "B.1.3.2",
+    "description": "événement de sécurité réussi (ou exécuté), Objectif atteint avec des conséquences réelles pour la CIA"
+  },
+  {
+    "id": "B.1.3.3",
+    "description": "échec de l'événement de sécurité"
+  },
+
+  {
+    "id": "B.1.4.1",
+    "description": "bases de données et applications"
+  },
+  {
+    "id": "B.1.4.2",
+    "description": "systèmes"
+  },
+  {
+    "id": "B.1.4.3",
+    "description": "réseaux et télécommunications"
+  },
+  {
+    "id": "B.1.4.4",
+    "description": "les personnes"
+  },
+  {
+    "id": "B.1.4.5",
+    "description": "dispositifs de stockage hors ligne"
+  },
+  {
+    "id": "B.1.4.6",
+    "description": "dispositifs de l'utilisateur final"
+  },
+  {
+    "id": "B.1.4.7",
+    "description": "dnstallations et environnement"
+  },
+
+  {
+    "id": "B.1.5.10",
+    "description": "accès non autorisé à un système et/ou à des informations"
+  },
+  {
+    "id": "B.1.5.2",
+    "description": "action non autorisée sur le système d'information et/ou contre l'organisation"
+  },
+  {
+    "id": "B.1.5.3",
+    "description": "installation de logiciels non autorisés (malware) sur un système (sans l'accord du propriétaire)"
+  },
+  {
+    "id": "B.1.5.4",
+    "description": "perturbation à distance du système"
+  },
+  {
+    "id": "B.1.5.5",
+    "description": "les attaques d'ingénierie sociale"
+  },
+  {
+    "id": "B.1.5.6",
+    "description": "attaque personnelle contre le personnel de l'organisation ou perturbation de l'organisation"
+  },
+  {
+    "id": "B.1.5.7",
+    "description": "intrusion physique ou action illicite"
+  },
+  {
+    "id": "B.1.5.8",
+    "description": "activité illicite menée sur le réseau Internet public (nuisant à une organisation)"
+  },
+  {
+    "id": "B.1.5.9",
+    "description": "erreurs diverses (administration, manipulation, programmation, utilisation générale)"
+  },
+  {
+    "id": "B.1.5.11",
+    "description": "panne ou dysfonctionnement"
+  },
+  {
+    "id": "B.1.5.12",
+    "description": "événements environnementaux (indisponibilité due à une catastrophe naturelle)"
+  },
+
+  {
+    "id": "B.1.6.1",
+    "description": "Vulnérabilité comportementale"
+  },
+  {
+    "id": "B.1.6.2",
+    "description": "Vulnérabilité logicielle"
+  },
+  {
+    "id": "B.1.6.3",
+    "description": "Vulnérabilité de configuration"
+  },
+  {
+    "id": "B.1.6.4",
+    "description": "Vulnérabilité de sécurité générale"
+  },
+  {
+    "id": "B.1.6.5",
+    "description": "Vulnérabilité de la conception"
+  },
+  {
+    "id": "B.1.6.6",
+    "description": "Vulnérabilité matérielle"
+  },
+
+  {
+    "id": "B.1.7.1",
+    "description": "Perte de confidentialité (avec les types de perte et avec la quantité de données comme complément possible)"
+  },
+  {
+    "id": "B.1.7.2",
+    "description": "Perte d'intégrité (avec les types de perte)"
+  },
+  {
+    "id": "B.1.7.3",
+    "description": "Perte de disponibilité (avec les types de perte et la durée comme complément possible)"
+  },
+
+  {
+    "id": "B.1.8.1.1.1",
+    "description": "Impact direct/Perturbation des opérations commerciales/Augmentation des coûts d'exploitation"
+  },
+  {
+    "id": "B.1.8.1.1.2",
+    "description": "Impact direct/Perturbation des opérations commerciales/Réduction du chiffre d'affaires"
+  },
+  {
+    "id": "B.1.8.1.1.3",
+    "description": "Impact direct/Perturbation des opérations commerciales/Autre"
+  },
+
+  {
+    "id": "B.1.8.1.2.1",
+    "description": "Impact direct/Fraude/Argent"
+  },
+  {
+    "id": "B.1.8.1.2.2",
+    "description": "Impact direct/Fraude/Autre"
+  },
+
+  {
+    "id": "B.1.8.1.3.1",
+    "description": "Impact direct/Coûts de récupération de l'incident/Temps du personnel technique"
+  },
+  {
+    "id": "B.1.8.1.3.2",
+    "description": "Impact direct/Coûts de récupération de l'incident/Remplacement des actifs"
+  },
+  {
+    "id": "B.1.8.1.3.3",
+    "description": "Impact direct/Coûts de récupération de l'incident/autre"
+  },
+
+  {
+    "id": "B.1.8.2.1.1",
+    "description": "Impact indirecte/Perte de l'avantage concurrentiel/Augmentation des coûts d'exploitation"
+  },
+  {
+    "id": "B.1.8.2.1.2",
+    "description": "Impact indirecte/Perte de l'avantage concurrentiel/Réduction du chiffre d'affaires"
+  },
+  {
+    "id": "B.1.8.2.1.3",
+    "description": "Impact indirecte/Perte de l'avantage concurrentiel/Autre"
+  },
+
+  {
+    "id": "B.1.8.2.2.1",
+    "description": "Impact indirect/Atteinte à la réputation/argent"
+  },
+  {
+    "id": "B.1.8.2.2.2",
+    "description": "Impact indirect/Atteinte à la réputation/autre"
+  },
+
+  {
+    "id": "B.1.8.2.3.1",
+    "description": "Impact indirect/Perte de parts de marché/Temps du personnel technique"
+  },
+  {
+    "id": "B.1.8.2.3.2",
+    "description": "Impact indirect/Perte de parts de marché/Remplacement des actifs"
+  },
+  {
+    "id": "B.1.8.2.3.3",
+    "description": "Impact indirect/Perte de parts de marché/autre"
+  }
+]
+

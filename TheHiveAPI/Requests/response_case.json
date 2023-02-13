@@ -1,0 +1,51 @@
+Request :
+http://IP:9000/api/v1/case/~42680480
+
+Response:
+{
+    "_id": "~42680480",
+    "_type": "Case",
+    "_createdBy": "cyropuser@cyrop.io",
+    "_updatedBy": "cyropuser@cyrop.io",
+    "_createdAt": 1664381175967,
+    "_updatedAt": 1664383133019,
+    "number": 4,
+    "title": "#413 Malspam 2016-09-01 (.wsf in .zip) - campaign: \"Please find attached invoice no:\"",
+    "description": "Imported from MISP Event #413, created at Thu Sep 01 00:00:00 UTC 2016",
+    "severity": 4,
+    "startDate": 1472688000000,
+    "tags": [
+        "src:CIRCL",
+        "tlp:white",
+        "circl:incident-classification=\"malware\""
+    ],
+    "flag": false,
+    "tlp": 3,
+    "pap": 3,
+    "status": "New",
+    "stage": "New",
+    "assignee": "cyropuser@cyrop.io",
+    "customFields": [],
+    "userPermissions": [
+        "manageTask",
+        "manageCaseTemplate",
+        "manageProcedure",
+        "managePage",
+        "manageObservable",
+        "manageAlert",
+        "accessTheHiveFS",
+        "manageKnowledgeBase",
+        "manageAction",
+        "manageShare",
+        "manageAnalyse",
+        "manageCustomEvent",
+        "manageCase",
+        "manageUser",
+        "manageComment",
+        "manageTag",
+        "manageConfig"
+    ],
+    "extraData": {},
+    "newDate": 1664381175922,
+    "timeToDetect": 191693175922
+}

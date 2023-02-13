@@ -1,7 +1,7 @@
 from thehive4py.api import TheHiveApi
 from thehive4py.models import Alert, CaseTemplate
 
-hive_url = 'http://212.227.30.1:9000'
+hive_url = 'http://IP:9000'
 api_key = 'N0KIteIEhi6ayx7pV29TshQjpw5WBrfG'
 
 thehive = TheHiveApi(hive_url, api_key, version=5,  organisation='Cyrop', cert=False)

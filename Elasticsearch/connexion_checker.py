@@ -21,7 +21,7 @@
 import requests
 
 substring = "You Know, for Search".encode()
-response = requests.get("http://192.168.130.8:9200")
+response = requests.get("http://IP:9200")
 
 if substring in response.content:
    print()
@@ -46,7 +46,7 @@ else:
 
 from elasticsearch import Elasticsearch
 
-client = Elasticsearch("http://192.168.130.8:9200")
+client = Elasticsearch("http://IP:9200")
 
 if client.ping():
    print()

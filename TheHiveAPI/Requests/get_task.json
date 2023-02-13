@@ -1,0 +1,20 @@
+Thehive4py
+task = api.get_case_task("~81924272")
+print(json.dumps(task.json()))
+{
+  "id": "~81924272",
+  "_id": "~81924272",
+  "createdBy": "cyropuser@cyrop.io",
+  "createdAt": 1666094349947,
+  "_type": "case_task",
+  "title": "Malware analysis",
+  "group": "identification",
+  "description": "Analysis of the file to identify the malware",
+  "owner": "cyropuser@cyrop.io",
+  "status": "InProgress",
+  "flag": false,
+  "startDate": 1630683608000,
+  "endDate": 1630684608000,
+  "order": 3,
+  "dueDate": 1630694608000
+}

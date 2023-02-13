@@ -2,7 +2,7 @@
 
 # # EXPLICATION DU CODE :
 # Ce code utilise la bibliothèque "requests" pour envoyer une requête GET au serveur Elasticsearch situé à l'adresse IP
-# 192.168.130.8 sur le port 9200.
+# sur le port 9200.
 #
 # La requête GET est envoyée au point de terminaison "/_cat/indices" de l'API de Elasticsearch, qui retourne des
 # informations sur les indices du cluster.
@@ -14,7 +14,7 @@
 import requests
 
 # On définit le point de terminaison pour l'API "cat.indices"
-endpoint = "http://192.168.130.8:9200/_cat/indices?v"
+endpoint = "http://IP:9200/_cat/indices?v"
 
 # On envoie une requête GET au point de terminaison
 response = requests.get(endpoint)
@@ -26,7 +26,7 @@ print(response.text)
 
 # EXPLICATION DU CODE :
 # Ce code utilise la bibliothèque elasticsearch pour se connecter à un serveur Elasticsearch situé à l'adresse IP
-# 192.168.130.8 sur le port 9200.
+# sur le port 9200.
 # L'objet "client" envoie une requête GET au point de terminaison "/cat/indices" de l'API de Elasticsearch, qui retourne
 # des informations sur les indices du cluster.
 # Ces informations sont stockées dans la variable "indexes".
@@ -36,7 +36,7 @@ print(response.text)
 import elasticsearch
 
 # On instancie un client pour le cluster Elasticsearch
-client = elasticsearch.Elasticsearch("http://192.168.130.8:9200")
+client = elasticsearch.Elasticsearch("http://IP:9200")
 
 # On obtient une liste de tous les index du cluster
 indexes = client.cat.indices(v=True)

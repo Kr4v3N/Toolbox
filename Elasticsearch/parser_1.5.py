@@ -21,7 +21,7 @@ import json
 import time
 
 # Créer un client Elasticsearch pour se connecter au cluster
-client = elasticsearch.Elasticsearch("http://192.168.0.33:9200")
+client = elasticsearch.Elasticsearch("http://IP:9200")
 
 # Récupérer le timestamp Unix actuel en secondes
 timestamp = int(time.time())

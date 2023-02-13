@@ -2,7 +2,7 @@ from thehive4py.api import TheHiveApi
 from thehive4py.query import Eq
 
 # Créez une instance de TheHiveApi en fournissant l'URL de votre instance TheHive et votre clé d'API
-api = TheHiveApi("http://212.227.30.1:9000", "N0KIteIEhi6ayx7pV29TshQjpw5WBrfG")
+api = TheHiveApi("http://IP:9000", "TOKEN")
 
 # Récupérez les informations sur le cas en fournissant l'ID du cas
 case = api.get_case("~344152")

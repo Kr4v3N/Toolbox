@@ -1,0 +1,53 @@
+Request :
+http://IP:9000/api/v1/observable/~41074880
+
+Response:
+{
+    "_id": "~41074880",
+    "_type": "Observable",
+    "_createdBy": "cyropuser@cyrop.io",
+    "_createdAt": 1664795843736,
+    "dataType": "ip",
+    "data": "184.22.240.174",
+    "startDate": 1664795843736,
+    "tlp": 0,
+    "pap": 2,
+    "tags": [
+        "misp.category=\"Network activity\"",
+        "misp.type=\"ip-dst\""
+    ],
+    "ioc": false,
+    "sighted": false,
+    "reports": {},
+    "message": "",
+    "extraData": {},
+    "ignoreSimilarity": false
+}
+
+// ###########################################################
+// ###########################################################
+Request :
+http://172.20.0.1:9000/api/v1/observable/~188560
+
+Response:
+{
+    "_id": "~188560",
+    "_type": "Observable",
+    "_createdBy": "cyropuser@cyrop.io",
+    "_createdAt": 1664795850186,
+    "dataType": "hash",
+    "data": "e236a76e2be259fd6c12590c6a1904247c170e9b20261520d4321eb40b971f11",
+    "startDate": 1664795850186,
+    "tlp": 0,
+    "pap": 2,
+    "tags": [
+        "misp.category=\"Payload delivery\"",
+        "misp.type=\"sha256\""
+    ],
+    "ioc": false,
+    "sighted": false,
+    "reports": {},
+    "message": "Automatically added (via 856de08a947a40e00ea7ed66b8e02c53)",
+    "extraData": {},
+    "ignoreSimilarity": false
+}
